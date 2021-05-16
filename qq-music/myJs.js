@@ -10,4 +10,3 @@ document.querySelector(".dl").addEventListener('click',function(){
         document.querySelector(".layui-layer-content").innerHTML=`<h3><a href=${document.querySelector("audio").getAttribute("src")} target="_blank">downLoad</a><h3>`;
     }, 0);
 })
-
